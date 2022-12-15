@@ -1,0 +1,26 @@
+<div *ngIf="cartList.length===0">
+    No Medicine available in cart
+</div>
+<div *ngIf="cartList.length>0">
+<table border="1">
+    <tr>
+        <th>Cart Id</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+        <th></th>
+        </tr>
+    <tr *ngFor="let cart of cartList">
+        <td>{{cart?.cartId}}</td>
+        <td>{{cart?.quantity}}</td>
+        <td>{{cart?.mrpPrice}}</td>
+        <td>{{getTotal(cart?.quantity,cart?.mrpPrice)}}</td>
+        <td><button style="padding: 2px;font-size: medium;background-color: red;" (click)="deleteCart(cart)">Delete Cart</button></td>
+        
+
+
+    </tr>
+</table>
+<div style="margin-left: 600px;">
+    <b>Grand Total: </b>{{grandTotal}} <button style="padding: 2px;font-size: medium;min-width: fit-content;" (click)="placeOrder()">Place Order</button>
+</div>

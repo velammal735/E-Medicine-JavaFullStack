@@ -1,0 +1,32 @@
+<div class="adminbg" style="min-height:750px;margin-top:0px;">
+<div *ngIf="productList.length===0">
+    No product is available in list
+</div>
+<div *ngIf="productList.length>0">
+<table style="font-size: large;" align="center" >
+    <thead >
+    <tr>
+        <th>Medicine Id</th>
+        <th>Medicine Name</th>
+        <th>Medicine Description</th>
+        <th>Medicine Image</th>
+        <th>Medicine MRP</th>
+        <th>Medicine Quantity</th>
+        <th></th>
+    </tr>
+</thead>
+    <tr *ngFor="let product of productList">
+        <td>{{product?.productId}}</td>
+        <td>{{product?.productname}}</td>
+        <td>{{product?.description}}</td>
+        <td><img [src]="product?.image" /></td>
+        <td>{{product?.mrpPrice}}</td>
+        <td>{{product?.quantity}}</td>
+        <td>
+            <button style="font-size:100%;background-color: blue;"  (click)="editProduct(product)" >EDIT</button>
+            <button style="font-size:100%;background-color: red;" (click)="delProduct(product)">DELETE</button>
+        
+        </td>
+</table>
+</div>
+</div>

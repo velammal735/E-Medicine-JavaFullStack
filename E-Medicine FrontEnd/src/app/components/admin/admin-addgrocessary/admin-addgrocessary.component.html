@@ -1,0 +1,51 @@
+
+<div class="adminbg" style="min-height:750px;margin-top:-0px;">
+    <div id="addmedleftbox"></div>
+        <div id="addmedmidbox">
+
+<h1>Add Medicine</h1><hr style="margin-top: -10px;">
+
+<table>
+    <tr>
+        <td id="label">Product Name</td>
+        <td>
+            <input type="text" [(ngModel)]="productname" />
+        </td>
+    </tr>
+    <tr>
+        <td id="label">Image</td>
+        <td>
+            <input type="text" [(ngModel)]="image"/>
+        </td>
+    </tr>
+    <tr>
+        <td id="label">Description</td>
+        <td>
+            <input type="text" [(ngModel)]="description"/>
+        </td>
+    </tr>
+    <tr>
+        <td id="label">Mrp Price</td>
+        <td>
+            <input type="number" [(ngModel)]="mrpPrice"/>
+        </td>
+    </tr>
+    <tr>
+        <td id="label">Quantity</td>
+        <td>
+            <input type="number" [(ngModel)]="quantity"/>
+        </td>
+    </tr>
+    
+    
+    <tr>
+        <td colspan="2">
+            <button (click)="onAddProduct()">{{ isEdit ? 'Update' : 'Add'}}</button>
+        </td>
+    </tr>
+</table>
+    
+</div>
+</div>
+   
+

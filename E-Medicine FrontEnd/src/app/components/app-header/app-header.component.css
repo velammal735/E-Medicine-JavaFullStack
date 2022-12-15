@@ -1,0 +1,33 @@
+.main
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: rgb(5, 24, 80);
+    color:cornsilk;
+    font-size: 140%;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    border-right: 1px solid wheat;
+    border-radius: 15px 50px;
+}
+.main > .selected {
+   
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    color:  red;
+    font-size: 145%;
+}
+.main div
+{
+    cursor: pointer;
+}
+.main :hover
+{
+    color: goldenrod;
+  }
+  

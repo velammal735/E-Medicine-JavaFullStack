@@ -1,0 +1,10 @@
+
+<div class="main">
+    <div (click)="gotourl('')" [class.selected]="url === '/'"><b>HOME</b></div>
+    
+    <div (click)="gotourl('client-register')"  [class.selected]="url === '/client-register'"><b>SIGNUP</b></div>
+    <div (click)="gotourl('client-login')" [class.selected]="url === '/client-login'"><b>LOGIN</b></div>
+    <div (click)="gotourl('admin-login')" [class.selected]="url === '/admin-login'"><b>ADMIN LOGIN</b></div>
+    <div (click)="gotourl('about-us')" [class.selected]="url === '/about-us'"><b>ABOUT</b></div>
+    <div (click)="gotourl('contact-us')" [class.selected]="url === '/contact-us'"><b>CONTACT US</b></div>
+</div>

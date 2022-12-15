@@ -1,0 +1,15 @@
+
+h1{
+    color:darkblue;
+
+}
+h2{
+    color:orangered;
+}
+#Img img{
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:1620px;
+  min-height: 520px;
+}

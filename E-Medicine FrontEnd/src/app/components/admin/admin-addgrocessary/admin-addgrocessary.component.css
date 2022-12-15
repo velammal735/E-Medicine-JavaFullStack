@@ -1,0 +1,15 @@
+td input{
+width: 400px;;
+}
+td{
+    text-align: left;
+    padding: 10px;
+    font-size: large;
+}
+#label{
+    color: brown;
+    font-weight: bold;
+}
+h1{
+    color: #051850;
+}

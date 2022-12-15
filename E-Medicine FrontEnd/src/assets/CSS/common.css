@@ -1,0 +1,174 @@
+.bg{
+    background-image: url('../Images/Bg9.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abtbg{
+    background-image: url('../Images/os2.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#abthalfbox1{
+    width: 48%;
+    height: 750px;
+    float: left;
+    min-height: 750px;
+    margin-top: -30px;
+}
+#abthalfbox2{
+    width: 50%;
+    height: 750px;
+    float: left;
+    min-height: 750px;
+    margin-top: -30px;
+    background-color:white;
+    padding-left: 30px;
+}
+.contactbg{
+    background-image: url('../Images/os1.jpeg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contacthalfbox1{
+    width: 70%;
+    height: 750px;
+    float: left;
+    min-height: 750px;
+    margin-top: -30px;
+}
+#contacthalfbox2{
+    width: 28%;
+    height: 750px;
+    float: left;
+    min-height: 750px;
+    margin-top: -30px;
+    background-color:white;
+    padding-left: 30px;
+}
+#loginleftbox{
+    width: 40%;
+    float: left;
+    min-height: 400px;
+    background-color: transparent;
+}
+#loginmidbox{
+width: 20%;
+min-height: 300px;
+float: left;
+margin-top: 150px;
+background-color: #ffffff;
+opacity: 1;
+text-align: center;
+border-radius: 10px;
+padding-left: 10px;
+}
+
+input{
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 80%;
+    min-height: 30px;
+    font-size: medium;
+    border-color: green;
+    
+}
+select{
+    border-radius: 12px;
+    background-color: #ffffff;
+    width: 80%;
+    min-height: 30px;
+    font-size: medium;
+    border-color: green;
+}
+button {
+    display: inline-block;
+    background-color: green;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-weight: bold;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: lightgreen;
+    color: black;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  #signupleftbox{
+    width: 30%;
+    float: left;
+    min-height: 400px;
+    background-color: transparent;
+}
+#signupmidbox{
+width: 40%;
+min-height: 300px;
+float: left;
+margin-top: 50px;
+background-color: #ffffff;
+opacity: 1;
+text-align: center;
+border-radius: 10px;
+padding-left: 10px;
+}
+#addmedleftbox{
+  width: 30%;
+  float: left;
+  min-height: 400px;
+  background-color: transparent;
+}
+#addmedmidbox{
+width: 40%;
+min-height: 300px;
+float: left;
+margin-top: 50px;
+background-color: #ffffff;
+opacity: 1;
+text-align: center;
+border-radius: 10px;
+padding-left: 10px;
+}
+
+.adminbg{
+  background-image: url('../Images/Bg6.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
